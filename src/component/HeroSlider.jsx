@@ -36,7 +36,7 @@ function HeroSlider() {
         delay:1000,
         disableOnInteraction:false
      }}
-    className='h-[1200px] md:h-[800px] lg:h-[820px]'>
+    className='h-[1200px] md:h-[800px] lg:h-[820px] w-full'>
         {sliders.map((slider,index)=>{
             const {bg} = slider ;
             return (
@@ -68,7 +68,7 @@ function HeroSlider() {
                     </div>
                 </div>
                 <div className='absolute top-0 w-full h-full'>
-                    {/* <img className='object-cover h-full w-full' src={bg} alt="" /> */}
+                    <img className='object-cover h-full w-full' src={bg} alt="" />
                 </div>
                 <div className='absolute w-full h-full bg-black/70'></div>
             </SwiperSlide>

@@ -5,7 +5,7 @@ import Header from '../component/Header'
 
 const Layout = () => {
   return (
-    <div className="container mx-auto w-full">
+    <div className=" mx-auto w-full">
         <Header/>
         <main>
             <Outlet/>

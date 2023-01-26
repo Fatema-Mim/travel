@@ -4,26 +4,28 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import icon from "../img/wedo/icon-around.png";
+import client1 from "../img/client/client1.jpg";
+import client2 from "../img/client/client2.jpeg";
+import client3 from "../img/client/client3.jpeg";
 
 const sliders = [
     {
-        img:icon,
-        text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsa voluptates et quae, inventore quaerat, aspernatur in dolore eos sit repellat, laboriosam laborum? Officiis voluptatum iusto modi eveniet aliquid voluptate!",
-        name:"Fatema bin ibnu",
-        work:"Founder, Fatima ORC"
+        img:client1,
+        text:"I’m very satisfied. They are high-quality and worth the money. The also offered packages at that minimum price so that’s a plus! Thanks to its scheduling feature, we don’t need staff to work outside of business hours.",
+        name:"Jhon Doe",
+        work:"Founder, Jhon Group"
     },
     {
-        img:icon,
+        img:client2,
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsa voluptates et quae, inventore quaerat, aspernatur in dolore eos sit repellat, laboriosam laborum? Officiis voluptatum iusto modi eveniet aliquid voluptate!",
-        name:"Fatema bin ibnu",
-        work:"Founder, Fatima ORC"
+        name:"Fatema",
+        work:"Senior Officer, Jamuna Group"
     },
     {
-        img:icon,
+        img:client3,
         text:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsa voluptates et quae, inventore quaerat, aspernatur in dolore eos sit repellat, laboriosam laborum? Officiis voluptatum iusto modi eveniet aliquid voluptate!",
-        name:"Fatema bin ibnu",
-        work:"Founder, Fatima ORC"
+        name:"Farhana",
+        work:"Founder, Farhana ORC"
     },
     
 
@@ -42,12 +44,12 @@ const Clientsay = () => {
             {sliders.map((slider, index) => {
                 const { img,text,name,work } = slider;
                 return (
-                    <SwiperSlide className=' h-[300px] bg-blue-100 flex justify-between ' key={index}>
+                    <SwiperSlide className=' h-[500px] md:h-[400px] bg-blue-100 flex justify-between ' key={index}>
                         <div className=' w-full h-full text-center pt-14'>
-                            <img src={img} alt={name} className="inline-block object-center" />
-                            <p className='py-3 px-48' >{text}</p>
-                            <p>{name}</p>
-                            <p>{work}</p>
+                            <img src={img} alt={name} className="h-36 w-36 rounded-full inline-block object-cover" />
+                            <p className='py-4 px-4  md:px-48' >{text}</p>
+                            <p className='font-semibold'>{name}</p>
+                            <p className='font-semibold'>{work}</p>
                         </div>
                     </SwiperSlide>
                 )

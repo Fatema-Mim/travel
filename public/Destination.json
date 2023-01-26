@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "continent": "Europe",
+        "bgImg": "https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg",
+        "countries": [
+            {
+                "id": 1,
+                "name": "Berlin"
+            },
+            {
+                "id": 2,
+                "name": "Norway"
+            },
+            {
+                "id": 3,
+                "name": "Italy"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "continent": "Asia",
+        "bgImg": "https://images.pexels.com/photos/788200/pexels-photo-788200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "countries": [
+            {
+                "id": 1,
+                "name": "Japan"
+            },
+            {
+                "id": 2,
+                "name": "India"
+            },
+            {
+                "id": 3,
+                "name": "South Korea"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "continent": "North America",
+        "bgImg": "https://images.pexels.com/photos/290386/pexels-photo-290386.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "countries": [
+            {
+                "id": 1,
+                "name": "Canada"
+            },
+            {
+                "id": 2,
+                "name": "Mexico"
+            },
+            {
+                "id": 3,
+                "name": "America"
+            }
+        ]
+    }
+]

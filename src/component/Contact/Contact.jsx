@@ -10,7 +10,7 @@ const Contact = () => {
         e.target.reset();
     };
   return (
-    <div className='px-20 py-20'>
+    <div className='px-10 md:px-20 py-20'>
           <form onSubmit={handleSubmit(onSubmit)} className="mt-8 bg-white p-[20px] space-y-4 rounded-md">
               <div className='grid gap-6'>
                   <InputField label={"Name"} errors={errors} register={register} name={"name"} type={"text"} placeholder={"Your Name"} />

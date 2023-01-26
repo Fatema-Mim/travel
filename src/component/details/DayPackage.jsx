@@ -1,12 +1,11 @@
 import React from 'react'
 import { BsFillPlusSquareFill } from "react-icons/bs"
-import pic from '../../img/hero3.jpg'
 
-const DayPackage = () => {
+const DayPackage = ({detailsData}) => {
   return (
-    <div className='grid grid-cols-3 px-10 py-16 space-x-8'>
+    <div className='grid grid-cols-1 md:grid-cols-3 px-10 py-16 space-y-4 md:space-y-0 space-x-0 md:space-x-8'>
         <div>
-            <img src={pic} alt="travel" className='w-full h-full object-cover' />
+            <img src={detailsData?.pic2} alt="travel" className='w-full h-[450px] object-cover' />
         </div>
         <div className='col-span-2 space-y-6'>
               <p className='text-3xl font-bold text-slate-600'>Day By Day</p>

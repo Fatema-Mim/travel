@@ -18,18 +18,18 @@ function Header() {
             {/* nav */}
             <nav>
                 <ul className={`${header ? 'text-black' : 'text-white'} flex gap-x-4 lg:gap-x-8`}>
-                    <li className="hover:text-pink-400 transition">
+                    <li className="hover:text-cyan-400  transition">
                         <Link to="/" >Home</Link>
                     </li>
-                    <li className="hover:text-pink-400 transition">
-                        <Link to="/packageDetails">Package</Link>
+                    <li className="hover:text-cyan-400 transition">
+                        <Link to="/packages">Package</Link>
                     </li>
-                    <li className="hover:text-pink-400 transition">
+                    <li className="hover:text-cyan-400 transition">
                         <Link to="/aboutus">AboutUs</Link>
                     </li>
-                    <li className="hover:text-pink-400 transition">
+                    <li className="hover:text-cyan-400 transition">
                         <Link to="/contact">Contact</Link>
-                    </li>
+                    </li >
                 </ul>
 
                 

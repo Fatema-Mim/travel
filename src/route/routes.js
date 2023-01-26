@@ -4,6 +4,7 @@ import ContactPage from "../layout/ContactPage";
 import Home from "../layout/Home";
 import Layout from "../layout/Layout";
 import PackageDetails from "../layout/PackageDetails";
+import Packages from "../layout/Packages";
 
 const routes = createBrowserRouter([
     {
@@ -15,7 +16,11 @@ const routes = createBrowserRouter([
                 element:<Home/>
             },
             {
-                path:"/packageDetails/:id",
+                path:"packages",
+                element:<Packages/>
+            },
+            {
+                path:":name",
                 element:<PackageDetails/>
             },
             {

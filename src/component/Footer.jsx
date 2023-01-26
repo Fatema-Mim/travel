@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
     <div  className='px-10 py-10 text-center text-gray-700'>
-        <div className='grid grid-cols-3 gap-8'>
+        <div className='grid md:grid-cols-3 gap-8'>
             <div>
                 <p className='text-sm uppercase font-semibold pb-10'>We Are From</p>
                 <img src={footer} alt="location"  className='object-center'/>
